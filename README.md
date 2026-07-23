@@ -1,14 +1,14 @@
-#🔬 LCR Meter Automation
+# 🔬 LCR Meter Automation
 
 A Python based desktop application developed to automate measurements from the **Agilent E4980A Precision LCR Meter**. The software communicates with the instrument using **PyVISA (GPIB)** and provides a simple graphical interface for acquiring, visualizing, and exporting measurement data.
  This project was developed during my internship at **CSIR – National Physical Laboratory (NPL), New Delhi**, with the goal of reducing manual measurement efforts and improving the efficiency of laboratory testing.
 
-#📖 Overview
+# 📖 Overview
 
 Measuring electrical parameters manually using an LCR meter is repetitive and time-consuming, especially when multiple readings are required. This application automates the complete workflow—from instrument communication to report generation through an easy to use GUI.
 The software allows users to configure measurement parameters, monitor readings in real time, generate graphs, and export results without manually recording data.
 
-#✨ Features
+# ✨ Features
 
 - Communicates with the Agilent E4980A Precision LCR Meter using PyVISA
 - User friendly GUI developed with Tkinter
@@ -21,12 +21,12 @@ The software allows users to configure measurement parameters, monitor readings 
 - PDF report generation
 - Automatic data logging
 
-#🖥 Dashboard
+# 🖥 Dashboard
 
 [Dashboard](assets/Dashboard.png)
 The application provides an intuitive interface for configuring measurement settings, starting automated acquisition, monitoring live readings, and exporting reports.
 
-#📈 Graph Visualization
+# 📈 Graph Visualization
 
 [Graph](assets/Graph.png)
 Measurements can be visualized in real time. Users can generate graphs for different measurement modes (for example, Capacitance vs Time and Dissipation Factor vs Time), making it easier to analyze trends during testing.
@@ -40,7 +40,7 @@ Instrument Used
 - Communication Interface: GPIB
 - Library: PyVISA
 
- #📂 Project Structure
+ # 📂 Project Structure
 
 LCR_Meter_Automation
 │
